@@ -1,0 +1,42 @@
+/*General CSS START*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(92, 31, 122);
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+/*General CSS End*/
+
+/* btn CSS Start */
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2;
+    cursor: pointer;
+    background-color: #3c3c48;
+    color: white;
+    border: none;
+    background-image: url(img/images\ \(1\).jfif) !important;
+}
+/* btn CSS End */
+
+/* input text type CSS Start */
+.textview{
+    width: 198px;
+    margin: 4px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: black;
+}
+/* input text type CSS End */
